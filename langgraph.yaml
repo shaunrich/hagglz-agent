@@ -1,0 +1,14 @@
+# LangGraph Platform Configuration for Hagglz Negotiation Agent
+graphs:
+  orchestrator:
+    path: orchestrator.py
+    entrypoint: create_master_orchestrator
+
+dependencies:
+  - langgraph
+  - langchain
+  - langchain-openai
+  - langchain-anthropic
+  - langsmith
+  - chromadb
+  - pydantic

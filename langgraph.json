@@ -1,9 +1,6 @@
 {
   "graphs": {
-    "hagglz_negotiator": {
-      "path": "simple_orchestrator.py",
-      "entrypoint": "create_simple_orchestrator"
-    }
+    "hagglz_negotiator": "simple_orchestrator:create_simple_orchestrator"
   },
   "dependencies": [
     "langgraph",

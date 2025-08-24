@@ -1,0 +1,5 @@
+{
+  "graphs": {
+    "hagglz_negotiator": "standalone_orchestrator:create_hagglz_orchestrator"
+  }
+}
